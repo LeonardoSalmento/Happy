@@ -15,7 +15,6 @@ export class createOrphanages1602703060593 implements MigrationInterface {
                     generationStrategy: "increment",
 
                 },
-
                 {
                     name: 'name',
                     type: 'varchar',
@@ -41,11 +40,14 @@ export class createOrphanages1602703060593 implements MigrationInterface {
                     type: 'text',
                 },
                 {
+                    name: 'opening_hours',
+                    type: 'varchar',
+                },
+                {
                     name: 'open_on_weekends',
                     type: 'boolean',
                     default: false,
                 },
-
 
             ]
         }))
