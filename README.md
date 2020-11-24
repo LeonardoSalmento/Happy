@@ -2,7 +2,7 @@
 Aplicação Realizada durante o NLW 3 da RocketSeat
 
 
-##Aplicação em 3 áreas:
+## Aplicação em 3 áreas:
 
 ### Backend
 Utilizando NodeJs + TypeScript
